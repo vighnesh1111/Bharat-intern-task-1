@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>Temperature Converter</h1>
+    <div class="main">
+        <div class="imp">
+            Temperature in Celcius: &nbsp; &nbsp;&nbsp; &nbsp;
+            <input type="number" name="temp1" id="temp1">&deg;C
+            <button onclick="conv(1)">Convert</button>
+            <br><br><br>
+            Temperature in Fahrenheit: &nbsp;
+            <input type="number" name="temp2" id="temp2">&deg;F
+            <button onclick="conv(2)">Convert</button>
+            <br><br><br>
+            Temperature in Kelvin: &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="number" name="temp3" id="temp3">&deg;K
+            <button onclick="conv(3)">Convert</button>
+            <br><br><br>
+            <center>
+                <button onclick="resett()">Reset</button>
+            </center>
+        </div>
+    </div>
+
+</body>
+
+<script src="main.js"></script>
+
+</html>

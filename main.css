@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: larger;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 30px;
+    padding-left: 100px;
+    background: rgb(38, 151, 43);
+    color: white;
+}
+
+.main {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 400px;
+}
+
+input {
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    height: 45px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    font-size: 25px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    background: rgb(38, 151, 43);
+    margin-left: 30px;
+    border-radius: 5px;
+    color: white;
+}
